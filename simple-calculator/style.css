@@ -1,0 +1,170 @@
+* {
+  font-size: 30px;
+  box-sizing: border-box;
+  
+}
+ 
+td:not([type="text"]){
+  display:inline-block;
+  margin:10px;
+  
+}
+
+input[type="text"] {
+  display:inline-block;
+  margin:auto 4.5px;
+  
+}
+
+
+
+input[type="button"],input[type="reset"] {
+  background-color: #fff;
+  color: black;
+  outline: none;
+  padding: 10px 20px 10px 20px;
+  border-radius:20px;
+  
+/*   border-radius: 20px; */
+  border: 2px solid palevioletred;
+  background-color: pink;
+}
+
+
+form {
+  width: 30vw;
+  height:450px;
+  border-radius:15px;
+ 
+  display: block;
+  margin: auto;
+  border: 2px solid palevioletred;
+  background-color: whitesmoke;
+}
+
+#display {
+  border: none;
+  border-bottom: 2px solid palevioletred;
+  background-color: pink;
+  width: 26.5vw;
+  text-align: right;
+  height: 70px;
+  margin-top: 10px;
+  border-radius:20px;
+ 
+}
+
+table tr:nth-child(3) td:nth-child(4) input[type="button"]{
+  padding-left:24px;
+  padding-right:24px;
+}
+table tr:nth-child(2) td:nth-child(4) input[type="button"]{
+  padding-left:20px;
+  padding-right:20px;
+}
+table tr:nth-child(4) td:nth-child(4) input[type="button"]{
+  padding-left:21px;
+  padding-right:21px;
+}
+table tr:nth-child(5) td:nth-child(4) input[type="button"]{
+  padding-left:22.5px;
+  padding-right:22.5px;
+}
+table tr:nth-child(5) td:nth-child(1) input[type="reset"]{
+  padding-left:19px;
+  padding-right:19px;
+}
+
+
+/* @media all and (max-width:1920px){
+  table{
+    margin:auto;
+  }
+  form{
+    margin:auto;
+    width:17em;
+  }
+  #display{
+    width:10em;
+  }
+} */
+
+@media all and (min-width:480px) and (max-width:772px){
+  form{
+    margin:auto;
+    width:15em;
+    height:470px;
+  }
+  #display{
+    width:11em;
+  
+  }
+  table{
+    margin:auto;
+  }
+}
+@media all and (min-width:772px){
+  table{
+    margin:auto;
+  }
+  form{
+    margin:auto;
+    width:15em;
+    height:470px;
+  }
+  #display{
+    min-width:11em;
+  }
+}
+@media all and (min-width:992px){
+  table{
+    margin:auto;
+  }
+  form{
+    margin:auto;
+    width:15em;
+    height:470px;
+  }
+  #display{
+    min-width:11em;
+  }
+}
+@media all and (min-width:1200px){
+  table{
+    margin:auto;
+  }
+  form{
+    margin:auto;
+    width:15em;
+    height:470px;
+  }
+  #display{
+    min-width:11em;
+  }
+}
+@media all and (min-width:1350px){
+  table{
+    margin:auto;
+  }
+  form{
+    margin:auto;
+    width:15em;
+    height:470px;
+  }
+  #display{
+    min-width:11em;
+  }
+}
+@media all and (min-width:1350px) and (max-width:2050px){
+   table{
+    margin:auto;
+  }
+  form{
+    margin:auto;
+    width:15em;
+    height:470px;
+  }
+  #display{
+    max-width:11em;
+  }
+}
